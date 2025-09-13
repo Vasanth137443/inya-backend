@@ -1,12 +1,18 @@
 {
   "name": "inya-backend",
   "version": "1.0.0",
+  "description": "Inya.ai Buildathon backend (chat + mock APIs)",
   "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "engines": { "node": "18.x" },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "shortid": "^2.2.16"
+    "shortid": "^2.2.16",
+    "node-fetch": "^2.6.7"
   }
 }
